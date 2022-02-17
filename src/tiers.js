@@ -1,0 +1,10 @@
+export const CLASS_ENGRAVING = "Class Engraving";
+export const STARTER_ENGRAVING = "Starter Engraving";
+export const ADDON_1 = "Add-on 1";
+export const ADDON_2 = "Add-on 2";
+export const ADDON_3 = "Add-on 3";
+export const ADDON_4 = "Add-on 4";
+export const ADDON_5 = "Add-on 5";
+export const ADDON_6 = "Add-on 6";
+export const ADVANCE_1 = "Advance 1";
+export const ADVANCE_2 = "Advance 2";
