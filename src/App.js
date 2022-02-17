@@ -42,7 +42,7 @@ function App() {
         {foundedClasses.map((cf) => (
           <ListItem style={{listStyle: 'none'}}>
             <Flex align="center">
-              <img width="34" src={cf.iconSource} />
+              <img alt="class-logo" width="34" src={cf.iconSource} />
               {cf.name}{" "}
               <Text mt={2} ml={2} color="" fontSize="2xl">
                 ({cf.stats.join(", ")})
@@ -89,7 +89,7 @@ function App() {
     });
 
     setFoundedClasses(filteredClasses);
-  }, [classes, selectedEngravings, selectedAttributes]);
+  }, [selectedEngravings, selectedAttributes]);
 
   return (
     <div className="App">
