@@ -157,7 +157,7 @@ function App() {
         </Container>
       </ChakraProvider>
       <Flex align="center" justify="center" mt={20}>
-        © Developed by <a style={{marginLeft: 10, fontWeight: "bold"}} href="https://github.com/renan-garcia/lost-ark-price-help" target="_blank">Renan Garcia</a>
+        © Developed by <a style={{marginLeft: 10, fontWeight: "bold"}} href="https://github.com/renan-garcia/lost-ark-price-help" rel="noreferrer" target="_blank">Renan Garcia</a>
       </Flex>
     </div>
   );
